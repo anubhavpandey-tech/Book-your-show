@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TixMaster - Movie Ticket Booking</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #video-background {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 2em;
+      color: white;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #b8630e;
+      color: white;
+      font-size: 1.5em;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+
+    
+    .back_video {
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: -1;
+        /* width: 100%;
+        height: 100%; */
+    }    
+    
+    }
+  </style>
+</head>
+<body>
+  <video id="video-background" autoplay muted loop class="back_video">
+    <source src="./images/video.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <h1 style = "font-size: 150px; font-family: Trebuchet MS, Tahoma, sans-serif; outline: 5px none black;">TixMaster</h1>
+    <h3>Lorem ipsum</h6>
+    <a class="button" href="index.html" >Enter TixMaster</a>
+  </div>
+</body>
+</html>
